@@ -1,1 +1,1 @@
-"""forumweave baseline (single-responsibility pipeline)."""
+"""forumweave package (single-responsibility pipeline)."""
