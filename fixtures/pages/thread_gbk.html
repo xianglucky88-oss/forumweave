@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>编码异常页</title></head>
+<body>
+<div id="thread" class="thread" data-thread-id="t7">
+
+  <div class="post" id="post-g1" data-post-id="t7-p1">
+    <div class="meta">
+      <span class="author" data-uid="u21">编码用户</span>
+      <span class="floor">1楼</span>
+    </div>
+    <div class="body">这个页面用 GBK 保存，但 meta 声明成 UTF-8。</div>
+  </div>
+
+  <div class="post" id="post-g2" data-post-id="t7-p2">
+    <div class="meta">
+      <span class="author" data-uid="u22">楼上</span>
+      <span class="floor">2楼</span>
+    </div>
+    <div class="body">解析器应回退编码并标记异常，不能乱码也不能丢帖。</div>
+  </div>
+
+</div>
+<div class="pagination">
+  <span class="current">1</span>
+</div>
+</body>
+</html>

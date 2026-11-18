@@ -30,5 +30,48 @@
     "value": 30,
     "status": "sold",
     "ts": "2026-11-03T00:00:00Z"
+  },
+  {
+    "id": "page-t1-p1",
+    "kind": "page",
+    "thread": "t1",
+    "page_no": 1,
+    "page_file": "pages/thread_p1.html"
+  },
+  {
+    "id": "page-t1-p2",
+    "kind": "page",
+    "thread": "t1",
+    "page_no": 2,
+    "page_file": "pages/thread_p2.html"
+  },
+  {
+    "id": "page-t1-p1",
+    "kind": "page",
+    "thread": "t1",
+    "page_no": 1,
+    "page_file": "pages/thread_p1.html"
+  },
+  {
+    "id": "page-t9-broken",
+    "kind": "page",
+    "thread": "t9",
+    "page_no": 1,
+    "page_file": "pages/thread_broken.html"
+  },
+  {
+    "id": "page-t7-gbk",
+    "kind": "page",
+    "thread": "t7",
+    "page_no": 1,
+    "page_file": "pages/thread_gbk.html",
+    "declared_charset": "utf-8"
+  },
+  {
+    "id": "page-t1-p1-v2",
+    "kind": "page",
+    "thread": "t1",
+    "page_no": 1,
+    "page_file": "pages/thread_p1_v2.html"
   }
 ]

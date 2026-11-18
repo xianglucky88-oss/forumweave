@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>示例线程 第1页</title></head>
+<body>
+<div id="thread" class="thread" data-thread-id="t1">
+
+  <div class="post" id="post-1" data-post-id="t1-p1">
+    <div class="meta">
+      <span class="author" data-uid="u01">张三</span>
+      <span class="floor">1楼</span>
+    </div>
+    <div class="body">楼主开工：本周把线程解析器补齐。</div>
+  </div>
+
+  <div class="post" id="post-2" data-post-id="t1-p2">
+    <div class="meta">
+      <span class="author" data-uid="u02">李四</span>
+      <span class="floor">2楼</span>
+    </div>
+    <div class="body">
+      <blockquote class="quote" data-author="张三" data-post-id="t1-p1">楼主开工：本周把线程解析器补齐。</blockquote>
+      支持，先把引用和正文拆开。
+    </div>
+  </div>
+
+  <div class="post" id="post-3" data-post-id="t1-p3">
+    <div class="meta">
+      <span class="author" data-uid="u03">王五</span>
+      <span class="floor">3楼</span>
+    </div>
+    <div class="body">
+      <span class="reply-to">回复 #2</span>
+      同意二楼，另外分页尾部别算成帖子。
+    </div>
+  </div>
+
+  <div class="post collapsed" id="post-4" data-post-id="t1-p4">
+    <div class="meta">
+      <span class="author" data-uid="u04">赵六</span>
+      <span class="floor">4楼</span>
+    </div>
+    <div class="body collapsed" data-collapsed="1" data-lazy-url="/api/posts/t1-p4"></div>
+    <div class="collapse-tip">该回复被折叠，加载后可展开</div>
+  </div>
+
+  <div class="post" id="post-5" data-post-id="t1-p5">
+    <div class="meta">
+      <span class="author" data-uid="u05">孙七</span>
+      <span class="floor">5楼</span>
+    </div>
+    <div class="body">   </div>
+  </div>
+
+</div>
+<div class="pagination">
+  <a href="thread_p1.html" class="current">1</a>
+  <a href="thread_p2.html">2</a>
+  <a href="thread_p2.html" rel="next">下一页</a>
+</div>
+</body>
+</html>

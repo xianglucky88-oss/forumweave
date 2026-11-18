@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>示例线程（新版） 第1页</title></head>
+<body>
+<main id="thread" data-thread-id="t1">
+
+  <section class="message" data-post-id="t1-p1">
+    <header><span class="nickname" data-uid="u01">张三</span><em class="floor">1楼</em></header>
+    <div class="msg-body">楼主开工：本周把线程解析器补齐。</div>
+  </section>
+
+  <section class="message" data-post-id="t1-p2">
+    <header><span class="nickname" data-uid="u02">李四</span><em class="floor">2楼</em></header>
+    <div class="msg-body">
+      <aside class="cite" data-author="张三" data-post-id="t1-p1">楼主开工：本周把线程解析器补齐。</aside>
+      支持，先把引用和正文拆开。
+    </div>
+  </section>
+
+  <section class="message" data-post-id="t1-p3">
+    <header><span class="nickname" data-uid="u03">王五</span><em class="floor">3楼</em></header>
+    <div class="msg-body">
+      <span class="in-reply-to">回复 #2</span>
+      同意二楼，另外分页尾部别算成帖子。
+    </div>
+  </section>
+
+  <section class="message collapsed" data-post-id="t1-p4">
+    <header><span class="nickname" data-uid="u04">赵六</span><em class="floor">4楼</em></header>
+    <div class="msg-body" data-collapsed="1" data-lazy-url="/api/posts/t1-p4"></div>
+    <p class="fold-tip">该回复被折叠，加载后可展开</p>
+  </section>
+
+  <section class="message" data-post-id="t1-p5">
+    <header><span class="nickname" data-uid="u05">孙七</span><em class="floor">5楼</em></header>
+    <div class="msg-body">   </div>
+  </section>
+
+</main>
+<nav class="page-nav">
+  <a href="thread_p1.html" class="on">1</a>
+  <a href="thread_p2.html">2</a>
+  <a href="thread_p2.html" rel="next">下一页</a>
+</nav>
+</body>
+</html>

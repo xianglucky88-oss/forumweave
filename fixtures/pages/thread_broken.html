@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>嵌套损坏页面</title></head>
+<body>
+<div id="thread" class="thread" data-thread-id="t9">
+
+  <div class="post" id="post-b1" data-post-id="t9-p1">
+    <span class="author" data-uid="u11">老钱</span>
+    <div class="body">正文嵌套坏了<span>斜体没闭合
+    <blockquote class="quote" data-author="对面">引用跨边界
+  </div>
+
+  <div class="post" id="post-b2" data-post-id="t9-p2">
+    <span class="author" data-uid="u12">小孙</span>
+  </div>
+
+</div>
+<div class="pagination">
+  <span class="current">1</span>
+</div>
+</body>
+</html>
